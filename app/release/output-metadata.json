@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "artifactType": {
     "type": "APK",
     "kind": "Directory"
@@ -12,8 +12,8 @@
       "filters": [],
       "attributes": [],
       "versionCode": 1,
-      "versionName": "1.0",
-      "outputFile": "app-release.apk"
+      "versionName": "2.0",
+      "outputFile": "app-release-chatGPT.apk"
     }
   ],
   "elementType": "File"
