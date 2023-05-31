@@ -227,7 +227,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         String owner = Constant.OWNER_BOT;
-                        String question = "欢迎和我聊天，我是蔡特鸡皮踢";
+                        String question = "欢迎和我聊天，我是OpenAI的ChatGPT！";
 
                         ChatMessage chatMessage = new ChatMessage(owner, question);
                         mChatMessageList.add(chatMessage);
