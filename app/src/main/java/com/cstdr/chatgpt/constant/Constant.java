@@ -5,7 +5,7 @@ import okhttp3.MediaType;
 public class Constant {
 
     // 2023年4月12日 by shamu
-//    public static final String API = "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";
+//    public static final String API = "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";
     /**
      * To use our hosted ChatGPT API, you can use the following steps:
      * 要使用我们托管的 ChatGPT API，您可以使用以下步骤：
@@ -15,7 +15,7 @@ public class Constant {
      * 通过发送 /key 命令从 #Bot 通道获取 API 密钥。
      * Use the API Key in your requests to the following endpoints.
      */
-    public static final String API = "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";
+    public static final String API = "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";
 
     /**
      * https://github.com/PawanOsman/ChatGPT#chat-completion-chatgpt
