@@ -15,19 +15,19 @@ public class Constant {
      * 通过发送 /key 命令从 #Bot 通道获取 API 密钥。
      * Use the API Key in your requests to the following endpoints.
      */
-    public static final String API = "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";
+    public static final String API = "sk-3fd842dfd2db4de989f4df052d67de06";
 
     /**
      * https://github.com/PawanOsman/ChatGPT#chat-completion-chatgpt
      */
-    public static final String URL = "https://api.pawan.krd/v1/chat/completions";
-    public static final String OPENAI_URL = "https://api.openai.com/v1/chat/completions";
+    public static final String URL = "https://api.deepseek.com/chat/completions";
+    public static final String OPENAI_URL = "https://api.deepseek.com/chat/completions";
 
     public static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
     public static final String AUTHORIZATION = "Authorization";
     public static final String AUTHORIZATION_API_KEY = "Bearer " + API;
     public static final String MODEL = "model";
-    public static final String MODEL_GPT35 = "gpt-3.5-turbo";
+    public static final String MODEL_GPT35 = "deepseek-chat";
 
     public static final String MESSAGES = "messages";
     public static final String MESSAGES_KEY_ROLE = "role";
@@ -37,7 +37,7 @@ public class Constant {
 
     public static final String TEMPERATURE = "temperature";
     public static final double TEMPERATURE_LOW = 0;
-    public static final double TEMPERATURE_MIDDLE = 0.5;
+    public static final double TEMPERATURE_MIDDLE = 1;
 
     public static final String OWNER_BOT_THINK = "OWNER_BOT_THINK";
     public static final String OWNER_BOT = "OWNER_BOT";
